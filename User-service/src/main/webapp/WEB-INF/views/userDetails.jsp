@@ -18,6 +18,7 @@ th, td {
 </style>
 </head>
 <body>
+<%@include file="menu.jsp" %> 
 
 	<h3>User Details</h3>
 	<hr>

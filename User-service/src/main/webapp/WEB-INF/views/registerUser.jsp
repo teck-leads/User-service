@@ -18,6 +18,8 @@ th, td {
 </style>
 </head>
 <body>
+<%@include file="menu.jsp" %> 
+<hr>
 	<form action="save" method="POST">
 		<table>
 			<tr>
