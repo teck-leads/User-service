@@ -34,7 +34,7 @@ th, td {
 
 					<th>ID</th>
 					<th>NAME</th>
-					<!-- <th>Join Date</th> -->
+					<th>Join Date</th>
 					<th>User Role</th>
 					<th>Remove</th>
 				</tr>
@@ -42,7 +42,7 @@ th, td {
 					<tr>
 						<td>${user.id }</td>
 						<td>${user.name }</td>
-						<%-- <td>${user.joinDate }</td> --%>
+						 <td>${user.joinDate }</td> 
 						<td>${user.userRole }</td>
 						<td><a href="delete?id=${user.id }">Delete</a></td>
 					</tr>

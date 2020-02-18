@@ -27,10 +27,10 @@ th, td {
 
 				</td>
 			</tr>
-			<!-- <tr>
+			<tr>
 				<td><input type="date" name="joinDate"
 					placeholder="Enter Join Date"></td>
-			</tr> -->
+			</tr> 
 
 
 			<tr>

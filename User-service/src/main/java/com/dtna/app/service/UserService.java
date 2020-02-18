@@ -16,15 +16,15 @@ public class UserService {
 	private static List<User> users=new ArrayList<>();
 	private static Integer userId=104;
 	static {
-//				users.add(new User(101, "Raju", new Date(), "Dealer"));
-//				users.add(new User(102, "Chaitanya", new Date(), "Dealer"));
-//				users.add(new User(103, "Indu", new Date(), "Dealer"));
-//				users.add(new User(104, "Ravi", new Date(), "Admin"));
+				users.add(new User(101, "Raju", new Date(), "Dealer"));
+				users.add(new User(102, "Chaitanya", new Date(), "Dealer"));
+			users.add(new User(103, "Indu", new Date(), "Dealer"));
+			users.add(new User(104, "Ravi", new Date(), "Admin"));
 				
-				users.add(new User(101, "Raju",  "Dealer"));
-				users.add(new User(102, "Chaitanya",  "Dealer"));
-				users.add(new User(103, "Indu", "Dealer"));
-				users.add(new User(104, "Ravi",  "Admin"));
+//				users.add(new User(101, "Raju",  "Dealer"));
+//				users.add(new User(102, "Chaitanya",  "Dealer"));
+//				users.add(new User(103, "Indu", "Dealer"));
+//				users.add(new User(104, "Ravi",  "Admin"));
 				
 	}
 	public List<User> findAll(){
