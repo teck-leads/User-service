@@ -16,9 +16,9 @@ th, td {
 	padding: 15px;
 }
 </style>
+<%@include file="menu.jsp" %> 
 </head>
 <body>
-<%@include file="menu.jsp" %> 
 <hr>
 	<form action="save" method="POST">
 		<table>
