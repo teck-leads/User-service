@@ -19,7 +19,7 @@ public class RecommendationController {
 	private RecommendationService recommendationService;
 	
 	@GetMapping(value = "/quotes")
-	public String loadQuotes(Model model){
+	public String loadQuote(Model model){
 		model.addAttribute("engineListKey", recommendationService.getEngineList());
 		model.addAttribute("modelListKey", recommendationService.getModelList());
 		model.addAttribute("transmissionListKey", recommendationService.getTransmissionList());
